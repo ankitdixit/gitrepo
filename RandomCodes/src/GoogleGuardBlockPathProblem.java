@@ -29,7 +29,7 @@ public class GoogleGuardBlockPathProblem {
 		int[][] grid = new int[][] { { 2, 1, 2, 0, 2 }, { 2, 2, 1, 2, 2 },
 				{ 0, 2, 2, 2, 2 }, { 2, 2, 1, 2, 2 } };
 
-		// array to store final answer
+		// array to store final thing
 		int[][] minDist = new int[4][5];
 		for (int i = 0; i < minDist.length; i++) {
 			for (int j = 0; j < minDist[i].length; j++) {
